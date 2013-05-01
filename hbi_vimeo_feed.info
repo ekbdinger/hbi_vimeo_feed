@@ -1,0 +1,8 @@
+name = HBI Vimeo Feed
+core = 7.x
+package = hbi
+dependencies[] = ctools
+dependencies[] = feeds
+features[ctools][] = feeds:feeds_importer_default:1
+features[features_api][] = api:1
+features[feeds_importer][] = ebo_vimeo_video_final
